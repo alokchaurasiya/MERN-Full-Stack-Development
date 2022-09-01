@@ -1,0 +1,12 @@
+.todo{
+    background-image: linear-gradient(to top, rgb(45, 0, 150), rgb(152, 0, 68));
+    padding: 30px;
+    margin-top: 10px;
+    border-radius: 10px;
+}
+
+.todo-text{
+    color: white;
+    font-size: 20px;
+    margin: 0;
+}
