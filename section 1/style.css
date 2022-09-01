@@ -1,0 +1,11 @@
+.mycard{
+    border: 5px double red ;
+    
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}

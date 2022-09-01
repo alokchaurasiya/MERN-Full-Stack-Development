@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SigUp page</title>
+
+    <style>
+        .card{
+            border:2px solid black;
+            width: 30%;
+            padding:30px;
+            box-sizing: border-box;
+            /* box shadow : x -offset y-offset blur size color */
+            /* text shadow : x -offset y-offset blur  color */
+            box-shadow: 2px 4px 4px 2px rgb(49, 48, 48) ,-1px -1px 3px 2px white;
+            border: 5px; 
+            background-color: aliceblue;
+        }
+        body{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            background-image: url(photo-1494438639946-1ebd1d20bf85\ -\ Copy.jpg);
+            background-repeat: no-repeat;
+            background-size: cover;
+            /*background: linear-gradient(45deg , rgb(63, 99, 200), rgb(197, 92, 171), pink );
+
+            /*background: linear-gradient(0deg , rgb(63, 99, 200), rgb(197, 92, 171), pink ),url(photo-1494438639946-1ebd1d20bf85.jpg) ;*/
+
+        }
+        .myInput , .myiteam{
+            width: 100%;
+            padding: 2px;
+            box-sizing: border-box;
+            margin-bottom: 20px
+        }
+        .myInput{
+            background-color: white;
+            border-bottom: 3px solid rgb(212, 89, 18) ;
+        }
+        .myiteam{
+            margin: 30px;
+            border-radius: 20px;
+            border-color:black;
+            background-color: rgb(242, 240, 239);
+            width: 60%;
+            padding: 8px;
+            
+        }
+
+    </style
+</head>
+
+<body>
+    <div class="card">
+        <h2 style="text-align:center;">SignUp Here</h2>
+
+        <form >
+           <label for="">Name</label><br>
+           <input type="text" placeholder="FULL NAME" class="myInput"><br><br>
+
+           <label for="">Email</label><br>
+           <input type="email" placeholder="ENTER E-MAIL"  class="myInput"><br><br>
+
+           <label for="">Password</label><br>
+           <input type="password" placeholder="ENTER PASSWORD" class="myInput"><br><br>
+        <div style="text-align: center;">
+           <button class="myiteam">Submit</button>
+        </div>
+
+           
+        </form>
+    </div>
+    
+</body>
+</html>
